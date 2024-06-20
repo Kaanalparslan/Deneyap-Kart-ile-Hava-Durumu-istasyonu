@@ -13,11 +13,11 @@ float basinc;
 float sicaklik;
 float nem;
 
-const char* ssid = "Honor Play";
-const char* password = "emin0619";
+const char* ssid = "WiFİ Adınız";
+const char* password = "WiFi Şifreniz";
 
-const char* telegramBotToken = "7138854231:AAFB5j91h9TupC99cP74Qa3CqTDkFH1rMxQ";
-const int telegramChatIds[] = {6932948735, 1077323828, 1000225832}; // Arkadaşlarınızın chat id'lerini buraya ekleyin
+const char* telegramBotToken = "oluşturduğunuz bot tokeni";
+const int telegramChatIds[] = {"kullanıcıların telegram idleri (çift tırnak kullanılmadan aralarında virgül olacak şekilde"}; // Arkadaşlarınızın chat id'lerini buraya ekleyin
 const int numChatIds = sizeof(telegramChatIds) / sizeof(telegramChatIds[0]); // Dizinin uzunluğunu hesaplayın
 
 WiFiServer server(80);
